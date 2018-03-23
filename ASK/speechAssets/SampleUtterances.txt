@@ -1,14 +1,18 @@
 ParticleIntent what is the {temperature|sensor} here
 ParticleIntent what is the {humidity|sensor} here
 ParticleIntent turn {on|onoff} {red|light} light
-ParticleIntent turn {on|onoff} {green|light} light
+ParticleIntent turn {on|onoff} {blue|light} light
 ParticleIntent turn {off|onoff} {red|light} light
-ParticleIntent turn {off|onoff} {green|light} light
+ParticleIntent turn {off|onoff} {blue|light} light
+ParticleIntent turn {on|onoff} the {red|light} light
+ParticleIntent turn {on|onoff} the {blue|light} light
+ParticleIntent turn {off|onoff} the {red|light} light
+ParticleIntent turn {off|onoff} the {blue|light} light
 
 ParticleIntent {temperature|sensor}
 ParticleIntent {humidity|sensor}
-ParticleIntent {red|light} 
-ParticleIntent {green|light} 
+ParticleIntent {red|light}
+ParticleIntent {blue|light}
 
 HelpIntent help
 HelpIntent help me
